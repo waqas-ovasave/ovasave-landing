@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import { Pagination, EffectFade, Autoplay } from 'swiper/modules';
+import Footer from "@/components/footer";
 
 const Home: React.FC = () => {
   return (
@@ -29,8 +30,12 @@ const Home: React.FC = () => {
               <p className={styles.text}>Still not sure where to start?<br/>Request a call back!</p>
               <Link href={'https://www.ovasave.com/contact-us/'} target='_blank' className={styles.link}>Request call back</Link>
             </div>
+            <div className={styles.row}>
+              <p className={styles.text}>Learn more about Ovasave</p>
+              <Link className={styles.link} href={'https://www.ovasave.com/our-story/'} target={'_blank'}>About us</Link>
+            </div>
           </div>
-          <Swiper 
+          <Swiper
             effect={'fade'}
             navigation={true}
             autoHeight={true}
@@ -62,6 +67,7 @@ const Home: React.FC = () => {
             </SwiperSlide>
           </Swiper>
         </div>
+        <Footer />
       </div>
     </main>
   )

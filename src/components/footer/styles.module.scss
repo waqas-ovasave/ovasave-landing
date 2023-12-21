@@ -1,0 +1,31 @@
+.footer {
+  padding-top: 24px;
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  border-top: 2px solid #f1f3fe;
+}
+
+.copyright {
+  color: #6e6b8b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.socials {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 16px
+}
+
+.link {
+  cursor: pointer;
+}
+
+.textLink {
+  color: #19163c;
+  font-size: 16px;
+  font-family: MadaMedium Arial sans-serif;
+}
