@@ -31,17 +31,26 @@
 }
 
 .link {
-  padding: 10px 24px;
+  padding: 16px 24px;
   width: 200px;
   display: block;
   background: #5C569B;
   border-radius: 100px;
   text-align: center;
   font-family: MadaSemiBold Arial sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: #ffffff;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.textLink {
+  color: #5C569B;
+  font-family: MadaSemiBold Arial sans-serif;
+  font-size: 30px;
+  line-height: 38px;
+  cursor: pointer;
 }
 
 .swiper {
