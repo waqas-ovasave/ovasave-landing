@@ -1,11 +1,11 @@
 "use client";
 import styles from './page.module.scss'
 import React from 'react';
-import Header from "@/components/header";
-import Link from "next/link";
+import Header from '@/components/header';
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/css";
-import "swiper/css/pagination";
+import 'swiper/css';
+import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import { Pagination, EffectFade, Autoplay } from 'swiper/modules';
 
@@ -23,14 +23,14 @@ const Home: React.FC = () => {
             </div>
             <div className={styles.row}>
               <p className={styles.text}>Book a consultation to know more about your options</p>
-              <Link href={'https://ovasave.okadoc.com/en-ae/doctor/reproductive-endocrinology-infertility-ivf/abu-dhabi/chantelle-maison'} target='_blank' className={styles.link}>Book consultation</Link>
+              <Link href={'https://www.ovasave.com/sign-in/?okadoc2=1'} target='_blank' className={styles.link}>Book consultation</Link>
             </div>
             <div className={styles.row}>
               <p className={styles.text}>Still not sure where to start?<br/>Request a call back!</p>
               <Link href={'https://www.ovasave.com/contact-us/'} target='_blank' className={styles.link}>Request call back</Link>
             </div>
           </div>
-          <Swiper
+          <Swiper 
             effect={'fade'}
             navigation={true}
             autoHeight={true}
